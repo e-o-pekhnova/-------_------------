@@ -1,0 +1,36 @@
+.reasons {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font: var(--header);
+    color: var(--black-txt);
+    text-align: center;
+}
+
+.reasons-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.reasons-menu-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.reason {
+    background-image: url("/chase/images/heft_bgimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 42.6vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: var(--border);
+}
