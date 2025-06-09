@@ -51,6 +51,7 @@ a, button {
     --header: 600 96px/130% 'Alumni Sans', sans-serif;
     --price-title: 500 32px/130% 'Alumni Sans', sans-serif;
     --price-txt: 400 32px/130% 'Alumni Sans', sans-serif;
+    --reviews-txt: 500 16px/130% 'Alumni Sans', sans-serif;
 }
 
 .header {
