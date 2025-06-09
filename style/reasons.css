@@ -3,12 +3,6 @@
     flex-direction: column;
 }
 
-.header {
-    font: var(--header);
-    color: var(--black-txt);
-    text-align: center;
-}
-
 .reasons-menu {
     display: flex;
     gap: 40px;
@@ -33,4 +27,26 @@
     align-items: flex-start;
     box-sizing: border-box;
     border: var(--border);
+}
+
+.reason-icon_text {
+    display: flex; 
+    flex-direction: row;
+    margin-top: 16.3vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.reason-text {
+    color: var(--black-txt);
+    font: var(--intro-text);
+}
+
+.reason-subtext {
+    color: var(--black-txt);
+    font: var(--button-text);
+    margin: 0 auto;
 }

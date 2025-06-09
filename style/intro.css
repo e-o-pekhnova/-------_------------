@@ -62,20 +62,6 @@ h1 > span {
     position: relative;
 }
 
-.intro-left-button {
-    position: relative;
-    align-self: center;
-    background-color: var(--dblue-clr);
-    color: var(--white);
-    font: var(--button-text);
-    padding: 20px 80px;
-    border: none; 
-}
-
-.intro-left-button:hover {
-    background-color: var(--button-hover);
-}
-
 .intro-right {  
     width: 48vw;
     max-height: 63vh;

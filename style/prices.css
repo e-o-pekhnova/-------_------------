@@ -1,0 +1,86 @@
+.prices {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.price-menu {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.price-menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-bg);
+    z-index: 1;
+    position: relative;
+    width: 27vw;
+    padding: 20px 40px 40px 40px;
+    gap: 20px;
+}
+
+.price-img {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+
+.price-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.price-title {
+    font: var(--price-title);
+    color: var(--black-txt);
+}
+
+.price-title:hover {
+    color: var(--price-title-hover)
+}
+
+.price-subtitle {
+    font: var(--price-txt);
+    color: var(--black-txt);
+}
+
+.crossed-price {
+    color: var(--red-txt);
+    font: var(--price-txt);
+    text-decoration: line-through;
+}
+
+.price {
+    font: var(--price-title);
+    color: var(--black-txt);
+}
+
+.badges {
+  position: absolute;
+  top: -10px;
+  z-index: 5; 
+  pointer-events: none; 
+}
+
+.round {
+    z-index: 1;
+    width: 590px; 
+    height: 712px;
+}
+
+.often_bought {
+    position: absolute;
+    top: 330px;
+    left: 340px;
+    z-index: 2;
+    width: 150px;
+}
+
