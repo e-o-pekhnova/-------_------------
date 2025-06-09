@@ -62,11 +62,12 @@
 .price {
     font: var(--price-title);
     color: var(--black-txt);
+    text-decoration: none;
 }
 
 .badges {
   position: absolute;
-  top: -10px;
+  top: -20px;
   z-index: 5; 
   pointer-events: none; 
 }

@@ -36,15 +36,15 @@
 }
 
 .card_1 {
-    background-image: url("/chase/images/review_1.png");
+    background-image: url("chase/images/review_1.png");
 }
 
 .card_2 {
-    background-image: url("/chase/images/review_2.png");
+    background-image: url("chase/images/review_2.png");
 }
 
 .card_3 {
-    background-image: url("/chase/images/review_3.png");
+    background-image: url("chase/images/review_3.png");
 }
 
 .card-left-txt {
@@ -56,7 +56,7 @@
 }
 
 .reviews-card-right {
-    background-image: url("/chase/images/heft_bgimg.png");
+    background-image: url("chase/images/heft_bgimg.png");
     width: 50%;
     height: 100%;
     background-size: cover;
