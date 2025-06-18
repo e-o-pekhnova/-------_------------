@@ -38,6 +38,8 @@ a, button {
     --white-bg: #FFF8FA;
     --red-txt: #D53131;
     --price-title-hover: #3186E1;
+    --text-hover: #2A050F;
+    --ask-hover: 2px solid #F48CFB;
 
 /*---------     FONTS   -----------------*/
     --menu-footer-text: normal 500 24px/130% 'Alumni Sans', sans-serif;
@@ -52,7 +54,8 @@ a, button {
     --price-title: 500 32px/130% 'Alumni Sans', sans-serif;
     --price-txt: 400 32px/130% 'Alumni Sans', sans-serif;
     --reviews-txt: 500 16px/130% 'Alumni Sans', sans-serif;
-}
+    --ask-txt: 600 32px/130% 'Alumni Sans', sans-serif;
+ }
 
 .header {
     font: var(--header);

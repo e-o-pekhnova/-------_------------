@@ -1,0 +1,16 @@
+.form {
+    background-image: url(/assets/images/form.png);
+}
+
+.form > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7.3vw;
+}
+
+.form-header {
+    color: var(--white);
+    font: var(--header);
+    text-transform: uppercase;
+    display: block;
+}

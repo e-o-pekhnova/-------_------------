@@ -1,5 +1,6 @@
 .reviews {
     background-color: var(--white);
+    padding-bottom: 100px;
 }
 
 .reviews h2 {
@@ -36,15 +37,15 @@
 }
 
 .card_1 {
-    background-image: url("/assets/images/review_1.png");
+    background-image: url("/assets/images/reviews_1.png");
 }
 
 .card_2 {
-    background-image: url("/asstes/images/review_2.png");
+    background-image: url("/assets/images/reviews_2.png");
 }
 
 .card_3 {
-    background-image: url("/assets/images/review_3.png");
+    background-image: url("/assets/images/reviews_3.png");
 }
 
 .card-left-txt {
